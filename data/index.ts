@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -194,14 +194,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: "https://github.com/Webdev-Ishan",
     img: "/git.svg",
   },
   {
     id: 2,
+    link:"https://x.com/saini_isha57790",
     img: "/twit.svg",
   },
   {
     id: 3,
+    link:"https://www.linkedin.com/in/ishan-saini-49b6842a6/",
     img: "/link.svg",
   },
 ];
