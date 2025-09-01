@@ -62,6 +62,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Full-Stack E-commerce Platform",
+    des: "Store-X is your go to partner for buying online goods for daily needs and other accessories.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://storex.digital/",
+  },
+  {
+    id: 2,
     title: "Full-Stack Payment Platform",
     des: "Transictify is your intelligent transport and logistics companion, designed to simplify how goods move from one place to another.",
     img: "/p1.png",
@@ -69,7 +77,7 @@ export const projects = [
     link: "https://www.transactify.space/",
   },
   {
-    id: 2,
+    id: 3,
     title: "SpellBeats - a Podcast",
     des: "Spellbeats is a SaaS platform that enables creators to convert YouTube videos into audio format and curate shareable playlists accessible via their public profiles",
     img: "/p2.png",
@@ -77,7 +85,7 @@ export const projects = [
     link: "https://www.spellbeats.online/",
   },
   {
-    id: 3,
+    id: 4,
     title: "NeuroPress is a full stack Blog platform",
     des: "We have all the features and authentication and authorization by using the next-auth , It has animations and great UI along with some other NextJs features. ",
     img: "/p3.png",
@@ -85,7 +93,7 @@ export const projects = [
     link: "https://neuropress.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "MindVault is a second brain",
     des: "Developed with Next.js, Prisma, and NextAuth.js, it supports features like link creation, editing, deletion, and search, all within a clean, minimal, and responsive UI built using Tailwind CSS.",
     img: "/p4.png",
@@ -199,12 +207,12 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link:"https://x.com/saini_isha57790",
+    link: "https://x.com/saini_isha57790",
     img: "/twit.svg",
   },
   {
     id: 3,
-    link:"https://www.linkedin.com/in/ishan-saini-49b6842a6/",
+    link: "https://www.linkedin.com/in/ishan-saini-49b6842a6/",
     img: "/link.svg",
   },
 ];
